@@ -35,6 +35,17 @@ nav li.active, nav li:hover {
 }
 
 .BildText {
-  width: ;
+  width: 50%;
   height: auto;
+}
+
+#carouselExampleControls {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+article {
+  margin: 50px;
+  
 }
