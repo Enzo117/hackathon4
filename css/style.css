@@ -1,3 +1,8 @@
+h1 {padding-top: 60px;}
+
+a {color: black;
+}
+
 nav {
     padding: 0px 20px;
 }
@@ -13,10 +18,14 @@ nav ul li {
     display: inline-block;
     float: right;
 }
-nav a {
+nav li {
     font-size: 16px;
     padding: 20px;
     display: inline-block;
-    color: white;
+    color: black;
     text-decoration: none;
+}
+nav li.active, nav li:hover {
+    background:#F2F2F2;
+    color: ;
 }
