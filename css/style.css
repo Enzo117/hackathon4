@@ -1,7 +1,11 @@
+html {scroll-behavior: smooth;}
 h1 {padding-top: 60px;}
 
-a {color: black;
-}
+a.nav-link:link {color: black;}
+a.nav-link:link {color: black;}
+a.nav-link:visited {color: black;}
+a.nav-link:active {color: black;}
+a.nav-link:hover {color: black;}
 
 nav {
     padding: 0px 20px;
