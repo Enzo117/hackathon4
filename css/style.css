@@ -92,7 +92,7 @@ nav li.active, nav li:hover {
   margin bottom: 30px;
 }
 
-#footer {   /* Footerbereich */
+#footer {
       background-color: #FE9A2E;
       color: #ffffff;
       height: 200px;
@@ -129,18 +129,3 @@ nav li.active, nav li:hover {
   #clear {
       clear: both;
   }
-  #right {
-  <div class="container">
-  <div class="row">
-   <div class="col">
-     1 of 3
-   </div>
-   <div class="col">
-     2 of 3
-   </div>
-   <div class="col">
-     3 of 3
-   </div>
- </div>
-</div>
-}
