@@ -1,5 +1,5 @@
 *{
-  font-family: Montserrat, Arial;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -23,6 +23,7 @@ h1 {
   top: 100px;
   width: 83vw;
   float: left;
+  font-weight: 700;
 
 }
 
@@ -31,6 +32,7 @@ h1 {
   top: 100px;
   display: block;
   width: 83vw;
+  font-weight: 700;
 
 
 
@@ -86,7 +88,7 @@ nav ul li a:active, nav ul li a:hover {
 
 nav ul li a {
   color: black;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 10px 10px 10px !important;
 
 }
 
