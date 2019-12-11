@@ -38,3 +38,31 @@ nav li.active, nav li:hover {
   width: ;
   height: auto;
 }
+
+#carouselExampleControls {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.container {
+  margin-left: 8.35%;
+  margin-right: 8.35%;
+  width: 83.3%;
+}
+
+#HeaderBild {
+  margin-bottom: 50px;
+  position: relative;
+  top:0;
+  width: 100%;
+
+}
+
+header {
+  background-image: url(.images/Header.jpg);
+}
+
+.ÜberschriftText {
+  margin bottom: 30px;
+}
