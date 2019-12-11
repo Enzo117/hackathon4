@@ -168,69 +168,6 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .InfoConatiner {
   border-style: solid;
   border-color: rgba (172, 158, 147, 0);
@@ -248,4 +185,39 @@ ul {
   padding-left: 10%;
   padding-right: 10%;
   margin-left: -10%;
+}
+
+.FAQ-Container {
+  border-style: none;
+  margin: 50px 0px 50px 0px;
+  padding: 20px 0px 20px 0px;
+}
+
+
+
+/* MEDIA-QUERIES */
+
+@media (min-device-width: 1350px){
+  #ausstellung-intro {
+  margin-top: 750px;
+}
+}
+
+
+@media (min-device-width: 1400px){
+  #ausstellung-intro {
+  margin-top: 800px;
+}
+}
+
+@media (min-device-width: 1450px){
+  #ausstellung-intro {
+  margin-top: 850px;
+}
+}
+
+@media (min-device-width: 1550px){
+  #ausstellung-intro {
+  margin-top: 900px;
+}
 }
