@@ -1,4 +1,4 @@
-html {scroll-behavior: smooth;}
+
 h1 {padding-top: 60px;}
 
 a.nav-link:link {color: black;}
@@ -35,17 +35,6 @@ nav li.active, nav li:hover {
 }
 
 .BildText {
-  width: 50%;
+  width: ;
   height: auto;
-}
-
-#carouselExampleControls {
-  margin-top: 50px;
-  margin-bottom: 50px;
-
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
 }
