@@ -1,7 +1,26 @@
 *{
   font-family: Montserrat, Arial;
 }
-h1 {padding-top: 60px;}
+
+
+html {scroll-behavior: smooth;}
+
+
+.header {
+  position: absolute;
+  width:100%;  
+  background-size: cover;
+  background-color: #999;
+
+
+}
+
+
+h1 {
+  position: absolute;
+  padding-top: 100px;
+}
+
 
 a.nav-link:link {color: black;}
 a.nav-link:link {color: black;}
@@ -11,7 +30,9 @@ a.nav-link:hover {color: black;}
 
 nav {
     padding: 0px 20px;
+    position: absolute;
 }
+
 
 nav ul {
     padding: 0;
@@ -34,6 +55,10 @@ nav li {
 nav li.active, nav li:hover {
     background:#F2F2F2;
     color: ;
+}
+
+#ausstellung-intro {
+  margin-top: 600px;
 }
 
 .BildText {
@@ -60,10 +85,7 @@ nav li.active, nav li:hover {
 
 }
 
-header {
-  background-image: url(.images/Header.jpg);
 
-}
 
 .ÜberschriftText {
   margin bottom: 30px;
