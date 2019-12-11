@@ -145,5 +145,7 @@ ul {
   border-width: thin;
   border-top: none;
   border-bottom: none;
-  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: -10%;
 }
