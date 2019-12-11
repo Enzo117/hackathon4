@@ -91,3 +91,5 @@ nav li.active, nav li:hover {
 .ÜberschriftText {
   margin bottom: 30px;
 }
+
+img, video, object {max-width: 100%;}
