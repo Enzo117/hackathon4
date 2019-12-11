@@ -103,3 +103,13 @@ nav ul li a {
 .ÜberschriftText {
   margin bottom: 30px;
 }
+
+
+
+
+.InfoConatiner {
+  border-style: solid;
+  border-color: rgba (172, 158, 147, 0);
+  border-width: thin;
+
+}
