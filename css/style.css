@@ -121,6 +121,7 @@ nav li.active, nav li:hover {
       margin: 0px;
       border: 0px;
   }
+  /*
   #left {
       width: 33%;
       float: left;
@@ -146,6 +147,7 @@ nav li.active, nav li:hover {
       padding-right: 20px;
       text-align: left;
   }
+  */
   #clear {
       clear: both;
   }
