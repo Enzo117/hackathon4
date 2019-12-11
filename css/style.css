@@ -53,6 +53,14 @@ nav li.active, nav li:hover {
 
 #HeaderBild {
   margin-bottom: 50px;
+  position: relative;
+  top:0;
+  width: 100%;
+
+}
+
+header {
+  background-image: url(.images/Header.jpg);
 }
 
 .ÜberschriftText {
