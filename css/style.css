@@ -8,7 +8,7 @@ html {scroll-behavior: smooth;}
 
 .header {
   position: absolute;
-  width:100%;
+  width:100%;  
   background-size: cover;
   background-color: #999;
 
@@ -21,16 +21,19 @@ h1 {
   top: 100px;
 }
 
+/*
 
-a.nav-link:link {color: black;}
-a.nav-link:link {color: black;}
 a.nav-link:visited {color: black;}
 a.nav-link:active {color: black;}
 a.nav-link:hover {color: black;}
+*/
 
 nav {
-    padding: 0px 20px;
+    padding: 20px 0px;
     position: absolute;
+    top:0px;
+    float: right;
+    
 
 }
 
@@ -41,21 +44,26 @@ nav ul {
     list-style: none;
 }
 
+
 nav ul li {
-    padding-right: 20px;
-    display: inline-block;
-    float: right;
-}
-nav li {
     font-size: 16px;
-    padding: 20px;
     display: inline-block;
-    color: black;
+    color: white;
     text-decoration: none;
+    display: inline-block;
+    
 }
-nav li.active, nav li:hover {
-    background:#A4A4A4;
-    opacity: 40%;
+
+nav ul li a:active, nav ul li a:hover {
+    background:#F2F2F2;
+    color: black;
+
+}
+
+nav ul li a {
+  color: white;
+  padding: 20px 0px 20px 0px;
+  
 }
 
 #ausstellung-intro {
@@ -91,5 +99,3 @@ nav li.active, nav li:hover {
 .ÜberschriftText {
   margin bottom: 30px;
 }
-
-img, video, object {max-width: 100%;}
