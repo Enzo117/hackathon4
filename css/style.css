@@ -46,6 +46,15 @@ nav li.active, nav li:hover {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 8.35%;
+  margin-right: 8.35%;
+  width: 83.3%;
+}
+
+#HeaderBild {
+  margin-bottom: 50px;
+}
+
+.ÜberschriftText {
+  margin bottom: 30px;
 }
