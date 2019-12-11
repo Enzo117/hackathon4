@@ -5,7 +5,6 @@
 
 html {scroll-behavior: smooth;}
 
-img, video, object {max-width: 100%;}
 
 .header {
   position: absolute;
@@ -31,8 +30,6 @@ h1 {
   top: 100px;
   display: block;
   width: 83vw;
-
-
   
 }
 
@@ -40,23 +37,19 @@ h1 {
 
 /*
 
+
+
+a.nav-link:link {color: black;}
+a.nav-link:link {color: black;}
 a.nav-link:visited {color: black;}
 a.nav-link:active {color: black;}
 a.nav-link:hover {color: black;}
+
 */
 
 nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:8.5vw;
-    padding-right:8.5vw;
+    padding: 0px 20px;
     position: absolute;
-    top:0px;
-    left:0px;
-    float: right;
-    width: 100%;
-    background-color: rgba(255,255,255,0.4);
-
 
 }
 
@@ -65,33 +58,28 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
-    float: right;
 }
-
 
 nav ul li {
+    padding-right: 20px;
+    display: inline-block;
+    float: right;
+}
+nav li {
     font-size: 16px;
+    padding: 20px;
     display: inline-block;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-
-}
-
-nav ul li a:active, nav ul li a:hover {
-    background:#F2F2F2;
     color: black;
-
+    text-decoration: none;
 }
-
-nav ul li a {
-  color: black;
-  padding: 20px 0px 20px 0px;
-
+nav li.active, nav li:hover {
+    background:#A4A4A4;
+    opacity: 40%;
 }
 
 #ausstellung-intro {
-  margin-top: 700px;
+
+  margin-top: 600px;
 }
 
 .BildText {
@@ -104,13 +92,11 @@ nav ul li a {
 
 }
 
-/*
 .container {
   margin-left: 8.5vw;
   margin-right: 8.5vw;
   width: 83vw;
 }
-*/
 
 #HeaderBild {
   margin-bottom: 50px;
@@ -126,12 +112,40 @@ nav ul li a {
   margin bottom: 30px;
 }
 
+#footer {
+      background-color: #FE9A2E;
+      color: #ffffff;
+      height: 200px;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      border: 0px;
+  }
+  #left {
+      width: 33%;
+      float: left;
+      padding: 15px 0px 0px 10px;
+      margin: 0px auto 0px auto;
+      padding-left: 20px;
+      text-align: left;
+  }
+  #center {
+      width: 33%;
+      float: left;
+      padding: 15px 0px 0px 0px;
+      margin: 0px auto 0px auto;
+      text-align: left;
 
 
-
-.InfoConatiner {
-  border-style: solid;
-  border-color: rgba (172, 158, 147, 0);
-  border-width: thin;
-
-}
+  }
+  #right {
+      width: 33%;
+      float: left;
+      padding: 15px 10px 0px 0px;
+      margin: 0px auto 0px auto;
+      padding-right: 20px;
+      text-align: left;
+  }
+  #clear {
+      clear: both;
+  }
