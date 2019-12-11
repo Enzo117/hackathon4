@@ -23,7 +23,10 @@ h1 {
   float: left;
 }
 
-
+h2 #datum {
+  position: absolute;
+  top: 200px;
+}
 
 /*
 
@@ -78,7 +81,7 @@ nav ul li a {
 }
 
 #ausstellung-intro {
-  margin-top: 600px;
+  margin-top: 1000px;
 }
 
 .BildText {
