@@ -8,7 +8,7 @@ html {scroll-behavior: smooth;}
 
 .header {
   position: absolute;
-  width:100%;  
+  width:100%;
   background-size: cover;
   background-color: #999;
 
@@ -54,8 +54,8 @@ nav li {
     text-decoration: none;
 }
 nav li.active, nav li:hover {
-    background:#F2F2F2;
-    color: ;
+    background:#A4A4A4;
+    opacity: 40%;
 }
 
 #ausstellung-intro {
