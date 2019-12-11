@@ -2,6 +2,7 @@
   font-family: Montserrat, Arial;
 }
 
+
 html {scroll-behavior: smooth;}
 
 
@@ -19,6 +20,7 @@ h1 {
   position: absolute;
   padding-top: 100px;
 }
+
 
 a.nav-link:link {color: black;}
 a.nav-link:link {color: black;}
@@ -60,7 +62,6 @@ nav li.active, nav li:hover {
 }
 
 .BildText {
-  width: ;
   height: auto;
 }
 
