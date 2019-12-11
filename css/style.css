@@ -11,17 +11,32 @@ img, video, object {max-width: 100%;}
   position: absolute;
   width:100%;
   background-size: cover;
-  background-color: #999;
+  
 
 
 }
+
 
 
 h1 {
-  position: absolute;
+  position: relative;
   top: 100px;
+  width: 83vw;
   float: left;
+  
 }
+
+#datum {
+  position: relative;
+  top: 100px;
+  display: block;
+  width: 83vw;
+
+
+  
+}
+
+
 
 /*
 
@@ -76,7 +91,7 @@ nav ul li a {
 }
 
 #ausstellung-intro {
-  margin-top: 600px;
+  margin-top: 700px;
 }
 
 .BildText {
