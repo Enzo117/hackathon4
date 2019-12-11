@@ -10,31 +10,30 @@
 
     <style>
     </style>
-    <script src="js/hackathon4.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    }
-  });
-});
-</script>
+    <script src="js/insect.js"></script>
+
     <title>Auf Staatsbesuch im Insektenreich</title>
   </head>
   <body>
+
+
+
+
+    <!-- Kommentar: Header Beginn -->
+    <div class="header"><img src="images/Header.jpg" id="HeaderBild">
+    </div>
+    <!-- Kommentar: Header Ende -->
+
+    <div class="container">
+
+    <!-- Kommentar: Navigation Beginn -->
+
     <header>&nbsp;
 
 
     </header>
     <div class="container">
+
 
     <nav>
       <ul id="nav">
@@ -48,11 +47,31 @@ $(document).ready(function(){
             <li><a class="nav-link" href="#Kontakt">Kontakt</a></li>
       </ul>
     </nav>
+     <!-- Kommentar: Navigation Ende -->
+
     <h1> Auf Staatsbesuch im Insektenreich </h1>
     <h2>22.09.19 - 22.03.20</h2>
+
+
+
+
+
+    <section id="ausstellung-intro">
+
+
+      <h2 class="ÜberschriftText"> Tauchen sie ein, in die Welt der Insekten </h2>
+      <div class="row">
+      <div class="col-4">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      </div>
+      <div class="col-1"></div>
+      <div class="col-6">
+        <img class="BildText" src="images/Staatsbesuch_09.jpg" alt="Ausstellungsbild">
+    </section>
+
     <img src="images/Header.jpg" id="HeaderBild">
 
-    <h2 class="ÜberschriftText"> Tauchen sie ein, in die Welt der Insekten </h2>
+    <h2 class="ÜberschriftText" id="Ausstellung"> Tauchen sie ein, in die Welt der Insekten </h2>
   <div class="row">
     <div class="col-6">
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -60,6 +79,7 @@ $(document).ready(function(){
     <div class="col-1"></div>
     <div class="col-5">
       <img class="BildText" src="images/Staatsbesuch_09.jpg" alt="Ausstellungsbild">
+
    </div>
  </div>
 
@@ -87,7 +107,6 @@ $(document).ready(function(){
 
 
 <!-- Kommentar: Slideshow -->
-<section>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -109,28 +128,7 @@ $(document).ready(function(){
     <span class="sr-only">Next</span>
   </a>
 </div>
-</section>
 <!-- Kommentar: Ende Slideshow -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section>
 <h2 class="ÜberschriftText"> Über unser Museum </h2>
 <div class="row">
 <div class="col-5">
@@ -141,7 +139,6 @@ $(document).ready(function(){
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 </div>
 </div>
-</section>
 
 </div> <!-- Schließendes Conatiner div-->
 
