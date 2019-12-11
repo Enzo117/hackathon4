@@ -12,6 +12,8 @@ img, video, object {max-width: 100%;}
   width:100%;
   background-size: cover;
 
+
+
 }
 
 
@@ -130,6 +132,93 @@ nav ul li a {
 ul {
   list-style: none;
 }
+
+#Footer {
+    background-color: #FE9A2E;
+    color: #ffffff;
+    height: 200px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+#col-links {
+  text-align: left;
+  padding-left:40px;
+  padding-top: 10px;
+}
+#col-rechts {
+  text-align: right;
+  padding-top: 10px;
+  padding-right:40px;
+}
+#col-mitte {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .InfoConatiner {
