@@ -18,7 +18,7 @@ html {scroll-behavior: smooth;}
 
 h1 {
   position: absolute;
-  padding-top: 100px;
+  top: 100px;
 }
 
 
@@ -31,6 +31,7 @@ a.nav-link:hover {color: black;}
 nav {
     padding: 0px 20px;
     position: absolute;
+
 }
 
 
@@ -72,9 +73,9 @@ nav li.active, nav li:hover {
 }
 
 .container {
-  margin-left: 8.35%;
-  margin-right: 8.35%;
-  width: 83.3%;
+  margin-left: 8.5vw;
+  margin-right: 8.5vw;
+  width: 83vw;
 }
 
 #HeaderBild {
