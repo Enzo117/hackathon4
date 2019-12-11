@@ -9,11 +9,8 @@ img, video, object {max-width: 100%;}
 
 .header {
   position: absolute;
-  
-  
-  
-  
-
+  width:100%;
+  background-size: cover;
 
 }
 
@@ -24,7 +21,7 @@ h1 {
   top: 100px;
   width: 83vw;
   float: left;
-  
+
 }
 
 #datum {
@@ -34,7 +31,7 @@ h1 {
   width: 83vw;
 
 
-  
+
 }
 
 
@@ -128,12 +125,26 @@ nav ul li a {
   margin bottom: 30px;
 }
 
-
+ul {
+  list-style: none;
+}
 
 
 .InfoConatiner {
   border-style: solid;
   border-color: rgba (172, 158, 147, 0);
   border-width: thin;
+  border-radius: 5px;
+  margin: 50px 0px 50px 0px;
+  padding: 20px 0px 20px 0px;
+}
 
+.VertikaleLinien {
+  border-style: solid;
+  border-width: thin;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: -10%;
 }
