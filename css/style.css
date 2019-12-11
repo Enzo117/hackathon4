@@ -19,6 +19,7 @@ html {scroll-behavior: smooth;}
 h1 {
   position: absolute;
   top: 100px;
+  float: left;
 }
 
 /*
@@ -80,11 +81,13 @@ nav ul li a {
 
 }
 
+/*
 .container {
   margin-left: 8.5vw;
   margin-right: 8.5vw;
   width: 83vw;
 }
+*/
 
 #HeaderBild {
   margin-bottom: 50px;
