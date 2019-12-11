@@ -35,6 +35,7 @@ nav {
     position: absolute;
     top:0px;
     float: right;
+    width: 83%;
 
 
 }
@@ -44,6 +45,7 @@ nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
+    float: right;
 }
 
 
