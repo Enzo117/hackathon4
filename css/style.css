@@ -149,8 +149,8 @@ ul {
     padding-left: 8.5vw !important;
     padding-right: 8.5vw !important;
     padding: 0px;
-    
-    
+
+
 }
 #col-links {
   text-align: left;
@@ -193,7 +193,34 @@ ul {
   padding: 20px 0px 20px 0px;
 }
 
+.fa {
+  padding: 25px;
+  height: 25px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
 /* MEDIA-QUERIES */
 
