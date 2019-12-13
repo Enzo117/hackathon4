@@ -224,11 +224,14 @@ ul {
 .btn {
   color: #000;
 }
+<<<<<<< HEAD
+=======
 
 .btn:hover {
   color: #AC9E93;
 }
 /* MEDIA-QUERIES */
+>>>>>>> 4a2339e2f09f07401e2905d002cd95636d64f31a
 
 /* MEDIA-QUERIES */
 @media (max-device-width:768px) {
