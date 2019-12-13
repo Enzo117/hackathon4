@@ -99,6 +99,7 @@ nav ul li a {
 
 }
 
+
 .ausstellung-intro {
   margin-top: 700px;
 }
@@ -241,6 +242,14 @@ ul {
   border-width: thick;
 }
 /* MEDIA-QUERIES */
+
+@media (max-device-width:768px){
+  .navbar-toggle {
+    display: none;
+  }
+
+}
+
 
 @media (min-device-width: 1350px){
   #ausstellung-intro {
