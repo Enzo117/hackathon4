@@ -230,6 +230,11 @@ ul {
 }
 
 
+/*CSS FAQ
+.card-header {
+  border-style: none;
+  background-color: #fff;
+} */
 /* MEDIA-QUERIES */
 
 @media (min-device-width: 1350px){
