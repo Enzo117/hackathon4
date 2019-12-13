@@ -141,7 +141,7 @@ ul {
 
 #Footer {
     position: absolute;
-    background-color: #FE9A2E;
+    background-color: #EBB46E;
     color: #ffffff;
     height: 200px;
     width: 100vw;
@@ -245,6 +245,9 @@ ul {
   border-style: none;
 }
 
+.btn {
+  color: #000;
+}
 /* MEDIA-QUERIES */
 
 @media (min-device-width: 1350px){
