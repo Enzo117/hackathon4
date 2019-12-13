@@ -95,6 +95,7 @@ nav ul li a {
 
 }
 
+
 .ausstellung-intro {
   margin-top: 800px;
 }
@@ -249,6 +250,14 @@ ul {
   color: #000;
 }
 /* MEDIA-QUERIES */
+
+@media (max-device-width:768px){
+  .navbar-toggle {
+    display: none;
+  }
+
+}
+
 
 @media (min-device-width: 1350px){
   #ausstellung-intro {
