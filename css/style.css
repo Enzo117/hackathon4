@@ -252,43 +252,46 @@ ul {
 .btn {
   color: #000;
 }
+<<<<<<< HEAD
 
 .btn:hover {
   color: #AC9E93;
 }
 /* MEDIA-QUERIES */
 
-/*
-@media (min-device-width:768px){
-  .nav div button {
 
-@media (max-device-width:768px) {
+@media (max-width:767px){
   .navbar-toggle {
 
     display: none;
   }
+.hidden-mobile {
+  display: none;
 }
-*/
+}
 
-@media (min-device-width: 1350px) {
+
+
+@media (min-width: 1350px){
   #ausstellung-intro {
     margin-top: 750px;
   }
 }
 
-@media (min-device-width: 1400px) {
+
+@media (min-width: 1400px){
   #ausstellung-intro {
     margin-top: 800px;
   }
 }
 
-@media (min-device-width: 1450px) {
+@media (min-width: 1450px){
   #ausstellung-intro {
     margin-top: 850px;
   }
 }
 
-@media (min-device-width: 1550px) {
+@media (min-width: 1550px){
   #ausstellung-intro {
     margin-top: 900px;
   }
