@@ -25,7 +25,14 @@ h1 {
   float: left;
   font-weight: 700;
   color: black;
+  line-height: 60px;
 
+
+}
+
+h1 b {
+  background-color: rgba(255,255,255,0.8);
+  padding: 0px 10px 0px 10px;
 }
 
 .datum {
@@ -38,6 +45,11 @@ h1 {
 
 
 
+}
+
+h2 span {
+  background-color: rgba(255,255,255,0.8);
+  padding: 0px 10px 0px 10px;
 }
 
 
@@ -248,8 +260,8 @@ ul {
 
 /* MEDIA-QUERIES */
 
-@media (max-device-width:768px){
-  .navbar-toggle {
+@media (min-device-width:768px){
+  .nav div button {
     display: none;
   }
 
