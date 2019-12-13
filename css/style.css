@@ -96,7 +96,7 @@ nav ul li a {
 }
 
 .ausstellung-intro {
-  margin-top: 850px;
+  margin-top: 800px;
 }
 
 .BildText {
@@ -204,6 +204,7 @@ ul {
 
 .fa:hover {
   opacity: 0.7;
+  color: #848484
 }
 
 .fa-facebook {
