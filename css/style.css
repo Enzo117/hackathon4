@@ -225,6 +225,11 @@ ul {
   color: #000;
 }
 
+.btn:hover {
+  color: #AC9E93;
+}
+/* MEDIA-QUERIES */
+
 /* MEDIA-QUERIES */
 @media (max-device-width:768px) {
   .navbar-toggle {
