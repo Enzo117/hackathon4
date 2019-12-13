@@ -224,6 +224,12 @@ ul {
   color: white;
 }
 
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
 /* MEDIA-QUERIES */
 
 @media (min-device-width: 1350px){
