@@ -170,7 +170,7 @@ ul {
 
 .InfoConatiner {
   border-style: solid;
-  border-color: rgba (172, 158, 147, 0);
+  border-color: #AC9E93;
   border-width: thin;
   border-radius: 5px;
   margin: 50px 0px 50px 0px;
@@ -185,13 +185,10 @@ ul {
   padding-left: 10%;
   padding-right: 10%;
   margin-left: -10%;
+  border-color: #AC9E93;
 }
 
-.FAQ-Container {
-  border-style: none;
-  margin: 50px 0px 50px 0px;
-  padding: 20px 0px 20px 0px;
-}
+
 
 .fa {
   padding: 10px;
@@ -232,10 +229,22 @@ ul {
 
 
 /*CSS FAQ*/
-.card-header {
+.FAQ-Container {
   border-style: none;
-  background-color: #fff;
+  margin: 50px 0px 50px 0px;
+  padding: 20px 0px 20px 0px;
 }
+
+.card-header {
+  background-color: #fff;
+  border-color: #AC9E93;
+}
+
+.card {
+  border-radius: 0px;
+  border-style: none;
+}
+
 /* MEDIA-QUERIES */
 
 @media (min-device-width: 1350px){
