@@ -1,22 +1,20 @@
-*{
+* {
   font-family: 'Montserrat', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
-html {scroll-behavior: smooth;}
-
-img, video, object {max-width: 100%;}
+img, video, object {
+  max-width: 100%;
+}
 
 .header {
   position: absolute;
-  width:100%;
+  width: 100%;
   background-size: cover;
-
-
-
 }
-
-
 
 h1 {
   position: relative;
@@ -33,6 +31,7 @@ h1 {
 h1 b {
   background-color: rgba(255,255,255,0.8);
   padding: 0px 10px 0px 10px;
+
 }
 
 .datum {
@@ -42,16 +41,13 @@ h1 b {
   width: 83vw;
   font-weight: 700;
   color: black;
-
-
-
 }
+
 
 h2 span {
   background-color: rgba(255,255,255,0.8);
   padding: 0px 10px 0px 10px;
 }
-
 
 
 /*
@@ -60,53 +56,44 @@ a.nav-link:visited {color: black;}
 a.nav-link:active {color: black;}
 a.nav-link:hover {color: black;}
 */
-
 nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:8.5vw;
-    padding-right:8.5vw;
-    position: fixed;
-    top:0px;
-    left:0px;
-    float: right;
-    width: 100%;
-    background-color: rgba(255,255,255,0.4);
-    z-index: 1;
-
-
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8.5vw;
+  padding-right: 8.5vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  float: right;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 1;
 }
-
 
 nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    float: right;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: right;
 }
 
-
 nav ul li {
-    font-size: 16px;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-
+  font-size: 16px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
 }
 
 nav ul li a:active, nav ul li a:hover {
-    background:#F2F2F2;
-    color: black;
-
+  background: #F2F2F2;
+  color: black;
 }
 
 nav ul li a {
   color: black;
   padding: 10px 10px 10px 10px !important;
-
 }
-
 
 .ausstellung-intro {
   margin-top: 800px;
@@ -119,7 +106,6 @@ nav ul li a {
 #carouselExampleControls {
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
 
 /*
@@ -129,20 +115,16 @@ nav ul li a {
   width: 83vw;
 }
 */
-
 #HeaderBild {
   margin-bottom: 50px;
   position: relative;
-  top:0;
+  top: 0;
   width: 100%;
   box-shadow: 10px 0 5px -2px #888;
-  -webkit-box-shadow: 0px 15px 22px -13px rgba(0,0,0,0.55);
-  -moz-box-shadow: 0px 15px 22px -13px rgba(0,0,0,0.55);
-  box-shadow: 0px 15px 22px -13px rgba(0,0,0,0.55);
-
+  -webkit-box-shadow: 0px 15px 22px -13px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 15px 22px -13px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 15px 22px -13px rgba(0, 0, 0, 0.55);
 }
-
-
 
 .ÜberschriftText {
   margin-bottom: 30px;
@@ -153,33 +135,33 @@ ul {
 }
 
 #Footer {
-    position: absolute;
-    background-color: #FE9A2E;
-    color: #ffffff;
-    height: 200px;
-    width: 100vw;
-    left: 0;
-    padding-left: 8.5vw !important;
-    padding-right: 8.5vw !important;
-    padding: 0px;
-
-
+  position: absolute;
+  background-color: #EBB46E;
+  color: #ffffff;
+  height: 150px;
+  width: 100vw;
+  left: 0;
+  padding-left: 8.5vw !important;
+  padding-right: 8.5vw !important;
+  padding: 0px;
 }
+
 #col-links {
   text-align: left;
-  padding-left:40px;
+  padding-left: 40px;
   padding-top: 10px;
 }
+
 #col-rechts {
   text-align: left;
   padding-top: 10px;
-  padding-right:40px;
+  padding-right: 40px;
 }
+
 #col-mitte {
   text-align: left;
   padding-top: 10px;
 }
-
 
 .InfoConatiner {
   border-style: solid;
@@ -200,8 +182,6 @@ ul {
   margin-left: -10%;
   border-color: #AC9E93;
 }
-
-
 
 .fa {
   padding: 10px;
@@ -240,7 +220,6 @@ ul {
   color: white;
 }
 
-
 /*CSS FAQ*/
 .FAQ-Container {
   border-style: none;
@@ -258,37 +237,47 @@ ul {
   border-style: none;
 }
 
+.btn {
+  color: #000;
+}
+
+.btn:hover {
+  color: #AC9E93;
+}
 /* MEDIA-QUERIES */
 
+/*
 @media (min-device-width:768px){
   .nav div button {
+
+@media (max-device-width:768px) {
+  .navbar-toggle {
+
     display: none;
   }
-
 }
+*/
 
-
-@media (min-device-width: 1350px){
+@media (min-device-width: 1350px) {
   #ausstellung-intro {
-  margin-top: 750px;
-}
+    margin-top: 750px;
+  }
 }
 
-
-@media (min-device-width: 1400px){
+@media (min-device-width: 1400px) {
   #ausstellung-intro {
-  margin-top: 800px;
-}
-}
-
-@media (min-device-width: 1450px){
-  #ausstellung-intro {
-  margin-top: 850px;
-}
+    margin-top: 800px;
+  }
 }
 
-@media (min-device-width: 1550px){
+@media (min-device-width: 1450px) {
   #ausstellung-intro {
-  margin-top: 900px;
+    margin-top: 850px;
+  }
 }
+
+@media (min-device-width: 1550px) {
+  #ausstellung-intro {
+    margin-top: 900px;
+  }
 }
