@@ -28,7 +28,7 @@ h1 {
 
 }
 
-#datum {
+.datum {
   position: relative;
   top: 100px;
   display: block;
@@ -95,7 +95,7 @@ nav ul li a {
 
 }
 
-#ausstellung-intro {
+.ausstellung-intro {
   margin-top: 700px;
 }
 
@@ -132,7 +132,7 @@ nav ul li a {
 
 
 .ÜberschriftText {
-  margin bottom: 30px;
+  margin-bottom: 30px;
 }
 
 ul {
