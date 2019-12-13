@@ -162,12 +162,12 @@ ul {
   padding-top: 10px;
 }
 #col-rechts {
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
   padding-right:40px;
 }
 #col-mitte {
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
 }
 
@@ -198,12 +198,14 @@ ul {
 }
 
 .fa {
-  padding: 25px;
-  height: 25px;
+  padding: 10px;
   font-size: 30px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
+  display: inline-block;
+  margin: 5px 5px;
   border-radius: 50%;
 }
 
@@ -226,6 +228,18 @@ ul {
   color: white;
 }
 
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+/*CSS FAQ*/
+.card-header {
+  border-style: none;
+  background-color: #fff;
+  border-width: thick;
+}
 /* MEDIA-QUERIES */
 
 @media (min-device-width: 1350px){
