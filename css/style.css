@@ -23,6 +23,15 @@ h1 {
   float: left;
   font-weight: 700;
   color: black;
+  line-height: 60px;
+
+
+}
+
+h1 b {
+  background-color: rgba(255,255,255,0.8);
+  padding: 0px 10px 0px 10px;
+
 }
 
 .datum {
@@ -33,6 +42,13 @@ h1 {
   font-weight: 700;
   color: black;
 }
+
+
+h2 span {
+  background-color: rgba(255,255,255,0.8);
+  padding: 0px 10px 0px 10px;
+}
+
 
 /*
 
@@ -233,32 +249,38 @@ ul {
 /* MEDIA-QUERIES */
 >>>>>>> 4a2339e2f09f07401e2905d002cd95636d64f31a
 
-/* MEDIA-QUERIES */
-@media (max-device-width:768px) {
+@media (max-width:767px){
   .navbar-toggle {
+
     display: none;
   }
+.hidden-mobile {
+  display: none;
 }
+}
+*/
 
-@media (min-device-width: 1350px) {
+
+@media (min-width: 1350px){
   #ausstellung-intro {
     margin-top: 750px;
   }
 }
 
-@media (min-device-width: 1400px) {
+
+@media (min-width: 1400px){
   #ausstellung-intro {
     margin-top: 800px;
   }
 }
 
-@media (min-device-width: 1450px) {
+@media (min-width: 1450px){
   #ausstellung-intro {
     margin-top: 850px;
   }
 }
 
-@media (min-device-width: 1550px) {
+@media (min-width: 1550px){
   #ausstellung-intro {
     margin-top: 900px;
   }
