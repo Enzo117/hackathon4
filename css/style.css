@@ -15,10 +15,12 @@ img, video, object {
 }
 
 .header {
-  position: absolute;
+  position: relative;
   width: 100%;
+  height: 800px;
   background-size: cover;
-  background-image: url(./images/Header.png);
+  background-image: url('../images/Header.png');
+  background-position: center center;
   margin-bottom: 50px;
   top: 0;
   width: 100vw;
@@ -29,10 +31,9 @@ img, video, object {
 }
 
 h1 {
-  position: relative;
+  position: absolute;
   top: 100px;
   width: 83vw;
-  float: left;
   font-weight: 700;
   color: black;
   line-height: 60px;
@@ -43,13 +44,22 @@ h1 b {
   padding: 0px 10px 0px 10px;
 }
 
+h1 .md-br {
+  display: none;
+}
+
+h1 .sm-br {
+  display: none;
+}
+
 .datum {
-  position: relative;
-  top: 100px;
+  position: absolute;
+  top: 180px;
   display: block;
   width: 83vw;
   font-weight: 700;
   color: black;
+  line-height: 45px;
 }
 
 h2 span {
@@ -102,9 +112,11 @@ nav ul li a {
   padding: 10px 10px 10px 10px !important;
 }
 
-.ausstellung-intro {
-  margin-top: 800px;
+.navbar {
+  position: absolute;
 }
+
+
 
 .BildText {
   height: auto;
@@ -122,6 +134,7 @@ nav ul li a {
   width: 83vw;
 }
 */
+
 #HeaderBild {
   margin-bottom: 50px;
   position: absolute;
@@ -227,7 +240,7 @@ ul {
   color: white;
 }
 
-/*CSS FAQ*/
+/* CSS FAQ */
 .FAQ-Container {
   border-style: none;
   margin: 50px 0px 50px 0px;
@@ -253,7 +266,7 @@ ul {
 }
 
 /* MEDIA-QUERIES */
-@media (max-width:767px) {
+@media screen and (max-width: 767px) {
   .navbar-toggle {
     display: none;
   }
@@ -263,25 +276,47 @@ ul {
   }
 }
 
-@media (min-width: 1350px) {
+@media screen and (max-width: 992px) {
+  .datum{
+    top:240px; 
+  }
+
+  h1 .md-br {
+    display: inline-block;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .datum{
+    top:360px;
+  }
+
+  h1 .sm-br {
+    display: inline-block;
+  }
+
+}
+
+@media screen and  (min-width: 1350px) {
   #ausstellung-intro {
     margin-top: 750px;
   }
 }
 
-@media (min-width: 1400px) {
+@media screen and  (min-width: 1400px) {
   #ausstellung-intro {
     margin-top: 800px;
   }
 }
 
-@media (min-width: 1450px) {
+@media screen and  (min-width: 1450px) {
   #ausstellung-intro {
     margin-top: 850px;
   }
 }
 
-@media (min-width: 1550px) {
+@media screen and  (min-width: 1550px) {
   #ausstellung-intro {
     margin-top: 900px;
   }
