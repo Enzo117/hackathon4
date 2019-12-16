@@ -200,6 +200,29 @@ ul {
   border-color: #AC9E93;
 }
 
+/*CSS Tab-Infokasten*/
+.tab-content {
+  border-style: solid;
+  border-top: none;
+  border-color: #AC9E93;
+  border-width: thin;
+  border-radius: 0px 0px 5px 5px;
+  padding: 7%;
+}
+
+
+.nav-item {
+  border-style: solid;
+  border-color: #AC9E93;
+  border-radius: 5px 5px 0px 0px;
+  border-width: thin;
+  border-bottom: none;
+
+}
+
+
+
+/*Ende CSS Tab Infokasten*/
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -274,6 +297,7 @@ ul {
   color: #AC9E93;
 }
 
+
 /* MEDIA-QUERIES */
 @media screen and (max-width: 767px) {
   .navbar-toggle {
@@ -288,8 +312,8 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px){
-  #myTab {
+@media screen and (min-width: 768px){ /*Media Querie zum Ausblenden des Tab-Infokastens*/
+  .tabInfoContainer {
     display: none;
   }
 }
