@@ -211,15 +211,25 @@ ul {
 }
 
 
-.nav-item {
+.tabInfoContainer .nav-item {
   border-style: solid;
   border-color: #AC9E93;
   border-radius: 5px 5px 0px 0px;
   border-width: thin;
   border-bottom: none;
-
 }
 
+.nav-link{
+  color: #000;
+}
+
+.nav-tabs {
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: #AC9E93;
+}
 
 
 /*Ende CSS Tab Infokasten*/
