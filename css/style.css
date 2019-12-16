@@ -283,6 +283,15 @@ ul {
   .hidden-mobile {
     display: none;
   }
+  .InfoConatiner {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #myTab {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
