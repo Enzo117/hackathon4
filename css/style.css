@@ -231,6 +231,10 @@ ul {
   border-color: #AC9E93;
 }
 
+.nav-link :active{
+  border-style: none;
+}
+
 
 /*Ende CSS Tab Infokasten*/
 .fa {
@@ -322,11 +326,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px){ /*Media Querie zum Ausblenden des Tab-Infokastens*/
-  .tabInfoContainer {
-    display: none;
-  }
-}
+
 
 @media screen and (max-width: 992px) {
   .datum {
