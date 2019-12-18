@@ -375,3 +375,9 @@ ul {
     margin-top: 900px;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
