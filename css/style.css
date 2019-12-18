@@ -308,6 +308,7 @@ ul {
   border-style: none;
   margin: 50px 0px 50px 0px;
   padding: 20px 0px 20px 0px;
+  max-width: 100%;
 }
 
 .card-header {
@@ -328,7 +329,9 @@ ul {
   color: #AC9E93;
 }
 
-
+button {
+  max-width: 100px;
+}
 /* MEDIA-QUERIES */
 @media screen and (max-width: 767px) { /*Mobile*/
   .navbar-toggle {
