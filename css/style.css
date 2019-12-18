@@ -180,12 +180,16 @@ ul {
   padding-top: 10px;
 }
 
+#Kontakt {
+  margin-top: 50px;
+}
+
 .InfoConatiner {
   border-style: solid;
   border-color: #AC9E93;
   border-width: thin;
   border-radius: 5px;
-  margin: 50px 0px 50px 0px;
+  margin: 50px 10px 50px 10px;
   padding: 20px 0px 20px 0px;
 }
 
