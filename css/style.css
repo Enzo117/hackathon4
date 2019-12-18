@@ -8,6 +8,7 @@ html {
 
 body {
   overflow-x: hidden;
+
 }
 
 img, video, object {
@@ -124,6 +125,8 @@ nav ul li a {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+
 
 #carouselExampleControls {
   margin-top: 50px;
@@ -249,10 +252,7 @@ ul {
 }
 
 
-
-
 /*Ende CSS Tab Infokasten*/
-
 
 .fa {
   padding: 10px;
