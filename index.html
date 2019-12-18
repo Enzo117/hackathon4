@@ -36,10 +36,11 @@
 
           <li><a class="nav-item nav-link" href="#Ausstellung">Ausstellung</a></li>
           <li><a class="nav-item nav-link" href="#Museum">Museum</a></li>
-          <li><a class="nav-item nav-link" href="#Info">Anfahrt</a></li>
+          <li class="hidden-mobile hidden-tablet"><a class="nav-item nav-link" href="#Info">Anfahrt</a></li>
           <li><a class="nav-item nav-link" href="#Info">Öffnungszeiten</a></li>
           <li><a class="nav-item nav-link" href="#Info">Preise</a></li>
           <li><a class="nav-item nav-link" href="#FAQ">FAQ</a></li>
+          <li class="hidden-desktop"><a class="nav-item nav-link" href="#mobile">Anfahrt</a></li>
           <li><a class="nav-item nav-link" href="#Kontakt">Kontakt</a></li>
           <li><a class="nav-item nav-link" href="#Footer">Impressum</a></li>
 
@@ -194,7 +195,7 @@
       </div>
 
       <!-- Smartphone Version des Infokastens -->
-      <div class="tabInfoContainer hidden-desktop">
+      <div class="tabInfoContainer hidden-desktop" id="mobile">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Öffnungszeiten</a>
@@ -251,7 +252,7 @@
       <div class="FAQ-Container" id="FAQ">
         <div class="row">
           <div class="col-md-7 col-xs-12">
-            <ul>
+            <div>
               <h3>FAQ</h3>
               <div id="accordion">
                 <div class="card">
@@ -317,6 +318,9 @@
                   </div>
                 </div>
               </div>
+</div>
+
+
               <div class="col-1 hidden-mobile">
                 <!--Platzhalter-->
               </div>
