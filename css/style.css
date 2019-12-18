@@ -325,7 +325,7 @@ ul {
 
 
 /* MEDIA-QUERIES */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) { /*Mobile*/
   .navbar-toggle {
     display: none;
   }
@@ -338,7 +338,17 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) { /*Tablet*/
+  .hidden-tablet {
+    display: none;
+  }
+}
 
+@media screen and (min-width: 1025px) { /*Desktop*/
+  .hidden-desktop {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .datum {
@@ -381,11 +391,5 @@ ul {
 @media screen and (min-width: 1550px) {
   #ausstellung-intro {
     margin-top: 900px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hidden-desktop {
-    display: none;
   }
 }
