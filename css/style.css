@@ -231,12 +231,16 @@ ul {
   border-color: #AC9E93;
 }
 
-.nav-link :active{
-  border-style: none;
+.nav-link:hover{
+  color: #000;
 }
 
 
+
+
 /*Ende CSS Tab Infokasten*/
+
+
 .fa {
   padding: 10px;
   font-size: 30px;
