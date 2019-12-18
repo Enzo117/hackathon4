@@ -8,6 +8,7 @@ html {
 
 body {
   overflow-x: hidden;
+
 }
 
 img, video, object {
@@ -249,10 +250,7 @@ ul {
 }
 
 
-
-
 /*Ende CSS Tab Infokasten*/
-
 
 .fa {
   padding: 10px;
