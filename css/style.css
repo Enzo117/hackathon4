@@ -197,7 +197,7 @@ ul {
   border-width: thin;
   border-radius: 5px;
   margin: 50px 10px 50px 10px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 30px 20px 30px;
 }
 
 .VertikaleLinien {
@@ -298,9 +298,7 @@ ul {
 /* CSS FAQ */
 .FAQ-Container {
   border-style: none;
-  margin: 50px 0px 50px 0px;
-  padding: 20px 0px 20px 0px;
-  max-width: 100%;
+
 }
 
 .card-header {
