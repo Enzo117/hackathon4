@@ -1,5 +1,6 @@
 * {
   font-family: 'Montserrat', sans-serif;
+
 }
 
 html {
@@ -20,7 +21,7 @@ img, video, object {
   width: 100%;
   height: 800px;
   background-size: cover;
-  background-image: url('../images/Header.jpg');
+  background-image: url('../images/Header.png');
   background-position: center center;
   margin-bottom: 50px;
   top: 0;
@@ -111,7 +112,6 @@ nav ul li a:active, nav ul li a:hover {
 nav ul li a {
   color: black;
   padding: 18px 10px 18px 10px !important;
-
 }
 
 .navbar {
@@ -121,12 +121,11 @@ nav ul li a {
 .BildText {
   height: auto;
 }
+
 .navbar {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-
-
 
 #carouselExampleControls {
   margin-top: 50px;
@@ -161,7 +160,7 @@ ul {
 
 #Footer {
   position: absolute;
-  background-color: #EBB46E;
+  background-color: #2E2E2E;
   color: #ffffff;
   min-height: 150px;
   width: 100vw;
@@ -226,7 +225,6 @@ ul {
   padding: 7%;
 }
 
-
 .tabInfoContainer .nav-item {
   border-style: solid;
   border-color: #AC9E93;
@@ -235,7 +233,7 @@ ul {
   border-bottom: none;
 }
 
-.nav-link{
+.nav-link {
   color: #000;
 }
 
@@ -247,13 +245,11 @@ ul {
   border-color: #AC9E93;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #000;
 }
 
-
 /*Ende CSS Tab Infokasten*/
-/*Social Media Icons*/
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -264,46 +260,41 @@ ul {
   display: inline-block;
   margin: 20px 5px;
   border-radius: 50%;
+  color: white;
+  background-color: #585858;
 }
 
 .fa:hover {
-  padding: 10px;
-  font-size: 45px;
-  height: 65px;
-  width: 60px;
-  text-align: center;
+  transform: scale(1.2);
   text-decoration: none;
-  display: inline-block;
-  margin: 0px;
-  border-radius: 50%;
   color: white;
 }
 
-.fa-facebook {
+.fa-facebook:hover {
   background: #3B5998;
   color: white;
   text-decoration: none;
 }
 
-.fa-twitter {
+.fa-twitter:hover {
   background: #55ACEE;
   color: white;
   text-decoration: none;
 }
 
-.fa-instagram {
+.fa-instagram:hover {
   background: rgb(220, 44, 118);
   color: white;
   text-decoration: none;
 }
 
-.fa-youtube {
+.fa-youtube:hover {
   background: #bb0000;
   color: white;
   text-decoration: none;
   margin-right: 0px
 }
-/*Social Media Icons Ende*/
+
 /* CSS FAQ */
 .FAQ-Container {
   border-style: none;
@@ -322,18 +313,20 @@ ul {
 
 .btn {
   color: #000;
-  white-space: normal;
-  text-align: left;
 }
-
 
 .btn:hover {
   color: #AC9E93;
 }
 
+button {
+  max-width: 100px;
+}
 
 /* MEDIA-QUERIES */
-@media screen and (max-width: 767px) { /*Mobile*/
+@media screen and (max-width: 767px) {
+
+  /*Mobile*/
   .navbar-toggle {
     display: none;
   }
@@ -342,65 +335,93 @@ ul {
     display: none;
   }
 
+  .InfoConatiner {
+    display: none;
   }
+
   #col-links {
     text-align: center;
     padding: 10px 0px 0px 0px;
   }
+
   #col-mitte {
     text-align: center;
     padding: 0px;
   }
+
   #col-rechts {
     text-align: center;
     padding: 0px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) { /*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  /*Tablet*/
   .hidden-tablet {
     display: none;
   }
+
 }
 
-@media screen and (min-width: 1025px) { /*Desktop*/
+@media screen and (min-width: 1025px) {
+
+  /*Desktop*/
   .hidden-desktop {
     display: none;
   }
 }
 
 @media screen and (min-width: 990px) and (max-width: 1100px) {
-.fa-twitter {
-  margin-right: 80px;
+  .fa-twitter {
+    margin-right: 80px;
+  }
+
+  .fa-twitter .fa:hover {
+    margin-right: 80px
+  }
 }
-.fa-twitter .fa:hover{
-  margin-right: 80px
-}
-}
+
 @media screen and (max-width: 992px) {
   .datum {
-    top: 340px;
+    top: 240px;
   }
 
   h1 .md-br {
     display: inline-block;
   }
-
-  #headline-intro h1 {
-    top: 200px;
-  }
-
-  nav {
-    background-color: rgba(255, 255, 255, 0.9);
-  }
 }
 
 @media screen and (max-width: 576px) {
   .datum {
-    top: 460px;
+    top: 360px;
   }
 
   h1 .sm-br {
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  #ausstellung-intro {
+    margin-top: 750px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #ausstellung-intro {
+    margin-top: 800px;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  #ausstellung-intro {
+    margin-top: 850px;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  #ausstellung-intro {
+    margin-top: 900px;
   }
 }
