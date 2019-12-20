@@ -253,7 +253,7 @@ ul {
 
 
 /*Ende CSS Tab Infokasten*/
-
+/*Social Media Icons*/
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -302,13 +302,12 @@ ul {
   color: white;
   text-decoration: none;
 }
-
+/*Social Media Icons Ende*/
 /* CSS FAQ */
 .FAQ-Container {
   border-style: none;
   margin: 50px 0px 50px 0px;
   padding: 20px 0px 20px 0px;
-  max-width: 100%;
 }
 
 .card-header {
