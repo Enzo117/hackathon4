@@ -313,15 +313,15 @@ ul {
 
 .btn {
   color: #000;
+  white-space: normal;
+  text-align: left;
 }
 
 .btn:hover {
   color: #AC9E93;
 }
 
-button {
-  max-width: 100px;
-}
+
 
 /* MEDIA-QUERIES */
 @media screen and (max-width: 767px) {
