@@ -253,7 +253,7 @@ ul {
 
 
 /*Ende CSS Tab Infokasten*/
-
+/*Social Media Icons*/
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -303,13 +303,12 @@ ul {
   text-decoration: none;
   margin-right: 0px
 }
-
+/*Social Media Icons Ende*/
 /* CSS FAQ */
 .FAQ-Container {
   border-style: none;
   margin: 50px 0px 50px 0px;
   padding: 20px 0px 20px 0px;
-  max-width: 100%;
 }
 
 .card-header {
@@ -400,26 +399,3 @@ ul {
   }
 }
 
-@media screen and (min-width: 1350px) {
-  #ausstellung-intro {
-    margin-top: 750px;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  #ausstellung-intro {
-    margin-top: 800px;
-  }
-}
-
-@media screen and (min-width: 1450px) {
-  #ausstellung-intro {
-    margin-top: 850px;
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  #ausstellung-intro {
-    margin-top: 900px;
-  }
-}
