@@ -20,7 +20,7 @@ img, video, object {
   width: 100%;
   height: 800px;
   background-size: cover;
-  background-image: url('../images/Header.png');
+  background-image: url('../images/Header.jpg');
   background-position: center center;
   margin-bottom: 50px;
   top: 0;
@@ -324,15 +324,16 @@ ul {
 
 .btn {
   color: #000;
+  white-space: normal;
+  text-align: left;
 }
+
 
 .btn:hover {
   color: #AC9E93;
 }
 
-button {
-  max-width: 100px;
-}
+
 /* MEDIA-QUERIES */
 @media screen and (max-width: 767px) { /*Mobile*/
   .navbar-toggle {
