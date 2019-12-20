@@ -1,5 +1,6 @@
 * {
   font-family: 'Montserrat', sans-serif;
+
 }
 
 html {
@@ -8,6 +9,7 @@ html {
 
 body {
   overflow-x: hidden;
+  
 }
 
 img, video, object {
@@ -158,7 +160,7 @@ ul {
 
 #Footer {
   position: absolute;
-  background-color: #EBB46E;
+  background-color: #2E2E2E;
   color: #ffffff;
   min-height: 150px;
   width: 100vw;
@@ -258,6 +260,8 @@ ul {
   display: inline-block;
   margin: 20px 5px;
   border-radius: 50%;
+  color: white;
+  background-color: #585858;
 }
 
 .fa:hover {
@@ -266,25 +270,25 @@ ul {
   color: white;
 }
 
-.fa-facebook {
+.fa-facebook:hover {
   background: #3B5998;
   color: white;
   text-decoration: none;
 }
 
-.fa-twitter {
+.fa-twitter:hover {
   background: #55ACEE;
   color: white;
   text-decoration: none;
 }
 
-.fa-instagram {
+.fa-instagram:hover {
   background: rgb(220, 44, 118);
   color: white;
   text-decoration: none;
 }
 
-.fa-youtube {
+.fa-youtube:hover {
   background: #bb0000;
   color: white;
   text-decoration: none;
@@ -382,25 +386,17 @@ button {
 
 @media screen and (max-width: 992px) {
   .datum {
-    top: 340px;
+    top: 240px;
   }
 
   h1 .md-br {
     display: inline-block;
   }
-
-  #headline-intro h1 {
-    top: 200px;
-  }
-
-  nav {
-    background-color: rgba(255, 255, 255, 0.9);
-  }
 }
 
 @media screen and (max-width: 576px) {
   .datum {
-    top: 460px;
+    top: 360px;
   }
 
   h1 .sm-br {
