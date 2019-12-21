@@ -349,6 +349,8 @@ ul {
     text-align: center;
     padding: 0px;
   }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -380,17 +382,25 @@ ul {
 
 @media screen and (max-width: 992px) {
   .datum {
-    top: 240px;
+    top: 340px;
   }
 
   h1 .md-br {
     display: inline-block;
   }
+
+  h1 {
+    top: 200px;
+  }
+
+  nav {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
 }
 
 @media screen and (max-width: 576px) {
   .datum {
-    top: 360px;
+    top: 460px;
   }
 
   h1 .sm-br {
@@ -398,26 +408,3 @@ ul {
   }
 }
 
-@media screen and (min-width: 1350px) {
-  #ausstellung-intro {
-    margin-top: 750px;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  #ausstellung-intro {
-    margin-top: 800px;
-  }
-}
-
-@media screen and (min-width: 1450px) {
-  #ausstellung-intro {
-    margin-top: 850px;
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  #ausstellung-intro {
-    margin-top: 900px;
-  }
-}
