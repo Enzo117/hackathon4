@@ -393,9 +393,7 @@ ul {
     top: 200px;
   }
 
-  nav {
-    background-color: #585858;
-  }
+
 }
 
 @media screen and (max-width: 576px) {
