@@ -249,6 +249,10 @@ ul {
   color: #000;
 }
 
+.tabInfoContainer a {
+  font-size: 14px;
+
+}
 /*Ende CSS Tab Infokasten*/
 
 .impressum
