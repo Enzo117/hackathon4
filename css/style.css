@@ -16,6 +16,12 @@ img, video, object {
   max-width: 100%;
 }
 
+.faqFrage::before {
+  content:"+";
+  display: inline-block;
+  margin-right: 5px;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -132,8 +138,13 @@ nav ul li a {
 }
 
 .bildunterschrift {
-  position: absolute;
+  position:absolute;
   text-align: right;
+  z-index: 1000;
+  color: black;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
 }
 
 /*
