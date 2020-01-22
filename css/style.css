@@ -21,7 +21,7 @@ img, video, object {
   width: 100%;
   height: 800px;
   background-size: cover;
-  background-image: url('../images/Header.png');
+  background-image: url('../images/Header.jpg');
   background-position: center center;
   top: 0;
   width: 100vw;
@@ -131,6 +131,10 @@ nav ul li a {
   margin-bottom: 50px;
 }
 
+.bildunterschrift {
+  position: absolute;
+  text-align: right;
+}
 
 /*
 .container {
@@ -145,7 +149,7 @@ nav ul li a {
 }
 
 .padding-section {
-  padding-top:50px; 
+  padding-top:50px;
 }
 
 #HeaderBild {
@@ -196,9 +200,7 @@ ul {
   padding-top: 10px;
 }
 
-#Kontakt {
-  margin-top: 50px;
-}
+
 
 .InfoContainer {
   border-style: solid;
@@ -369,6 +371,12 @@ color: white;
     padding: 0px;
   }
 
+  #accordion {
+  margin-bottom: 0px;
+}
+
+
+
 
 }
 
@@ -410,6 +418,15 @@ color: white;
 
   h1 {
     top: 200px;
+  }
+   .padding-section-mb{
+    padding-top: 50px;
+  }
+
+  .FAQ-Container{
+    margin:0px 10px 50px 10px;
+  }
+
   }
 
 
