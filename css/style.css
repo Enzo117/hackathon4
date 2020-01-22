@@ -24,7 +24,6 @@ img, video, object {
   background-image: url('../images/Header.jpg');
   background-color: #807979;
   background-position: center center;
-  margin-bottom: 50px;
   top: 0;
   width: 100vw;
   box-shadow: 10px 0 5px -2px #888;
@@ -130,7 +129,7 @@ nav ul li a {
 
 #carouselExampleControls {
   margin-top: 50px;
-  margin-bottom: 50px;
+  
 }
 
 /*
@@ -140,6 +139,15 @@ nav ul li a {
   width: 83vw;
 }
 */
+
+.ausstellung-intro{
+  padding-top:50px;
+}
+
+.padding-section {
+  padding-top:50px; 
+}
+
 #HeaderBild {
   margin-bottom: 50px;
   position: absolute;
@@ -214,7 +222,7 @@ ul {
 
 /*CSS Tab-Infokasten*/
 .tabInfoContainer {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .tab-content {
