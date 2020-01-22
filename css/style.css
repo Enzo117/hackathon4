@@ -250,6 +250,17 @@ ul {
 }
 
 /*Ende CSS Tab Infokasten*/
+
+.impressum
+{
+color: white;
+}
+
+.impressum:hover
+{
+  color: white
+}
+
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -292,7 +303,6 @@ ul {
   background: #bb0000;
   color: white;
   text-decoration: none;
-  margin-right: 0px
 }
 
 /* CSS FAQ */
