@@ -131,6 +131,10 @@ nav ul li a {
   margin-bottom: 50px;
 }
 
+.bildunterschrift {
+  position: absolute;
+  text-align: right;
+}
 
 /*
 .container {
@@ -145,7 +149,7 @@ nav ul li a {
 }
 
 .padding-section {
-  padding-top:50px; 
+  padding-top:50px;
 }
 
 #HeaderBild {
