@@ -381,6 +381,12 @@ color: white;
     padding: 0px;
   }
 
+  #accordion {
+  margin-bottom: 0px;
+}
+
+
+
 
 }
 
@@ -422,6 +428,15 @@ color: white;
 
   h1 {
     top: 200px;
+  }
+   .padding-section-mb{
+    padding-top: 50px;
+  }
+
+  .FAQ-Container{
+    margin:0px 10px 50px 10px;
+  }
+
   }
 
 
